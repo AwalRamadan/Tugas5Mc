@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgetpassActivity">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Forget Password"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="89dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextPersonName3"
+        android:layout_marginTop="112dp"
+        android:ems="10"
+        android:text="Masukan Email"
+        android:textSize="20dp"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextTextEmailAddress3"
+        android:layout_marginTop="51dp"
+        android:text="Button"
+        app:cornerRadius="16dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="20dp"
+        android:gravity="end"
+        android:layout_weight="1"
+        android:textSize="20dp"
+        android:text="Sudah Punya Akun?" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button3"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_weight="1"
+        android:text="Login"
+        android:textColor="#018786"
+        android:textSize="20dp" />
+</RelativeLayout>
